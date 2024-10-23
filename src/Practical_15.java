@@ -10,7 +10,7 @@ public class Practical_15 extends Applet{
         setBounds(2,2,2000,2000);
         g.setColor(Color.GREEN);
         g.setFont(new Font("Algerian", Font.BOLD, 40));
-        g.drawString("Hey, Aditi Khare here, #AK!:)", 0, 50);
+        g.drawString("Hi! i am aditi khare here :)", 0, 50);
         showStatus("#AK");
     }
 }
