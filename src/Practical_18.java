@@ -3,7 +3,7 @@ public class Practical_18 {
     public static void main(String[] args) {
         File myFile = new File("Data.txt");
         if (myFile.exists()) {
-            System.out.println(myFile.getName() + " exists");
+            System.out.println"file name: "+(myFile.getName() + " exists");
             System.out.println("The file is " + myFile.length() + " bytes long");
             if (myFile.canRead())
                 System.out.println(" ok to read");
