@@ -13,7 +13,7 @@ public class Practical_19 {
             out.writeObject(e);
             out.close();
             fileOut.close();
-            System.out.printf("Serialized data is saved Successfully!XD");
+            System.out.println("Serialized data is saved Successfully!XD");
         } catch (IOException i) {
             i.printStackTrace();
         }
